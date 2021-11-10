@@ -1,0 +1,12 @@
+name: "provision stack build/ deploy for ghpages"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        run: echo sup
